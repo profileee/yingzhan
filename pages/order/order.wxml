@@ -1,0 +1,10 @@
+<background/>
+<w-tabs lineSize="1" activeColor="#ff8800">
+	<w-tab
+	 wx:for="{{ tabs3 }}"
+	 wx:key="id"
+	 title="{{ item.text }}"
+	>
+		<view class="content">{{ item.text }}内容页</view>
+	</w-tab>
+</w-tabs>

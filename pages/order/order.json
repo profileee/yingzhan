@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单",
+  "usingComponents": {
+    "w-tabs": "/dist/w-tabs/index",
+    "w-tab": "/dist/w-tab/index"
+  }
+}
