@@ -1,0 +1,58 @@
+<view class="userinfo">
+  <block wx:if="{{userInfo}}">
+    <image src="{{userInfo.avatarUrl}}" class="userinfo-avatar"></image>
+    <view class="text">{{userInfo.nickName}}</view>
+  </block>
+  <block wx:else>
+    <image src="../../images/图标/nologin.jpeg" class="userinfo-avatar"></image>
+    <button class="button" bindtap="gotoLogin">点击登录</button>
+  </block>
+</view>
+<view class="box" wx:if="{{userInfo}}">
+  <view style=" display:flex; flex-direction:row">
+    <navigator class="item" url="../order/order" open-type="switchTab">
+      <image class="image" src="../../images/mine/订单中心.png" />
+      <text>订单中心</text>
+    </navigator>
+    <navigator class="item" url="../address/address">
+      <image class="image" src="../../images/mine/地址.png" />
+      <text>收货地址</text>
+    </navigator>
+  </view>
+  <view style="margin-top:20rpx; display:flex;  flex-direction:row">
+    <view class="item" bindtap="logout">
+      <image class="image" src="../../images/图标/logout.png" />
+      <text>退出登录</text>
+    </view>
+    <view class="item" bindtap="zhuxiao">
+      <image class="image" src="../../images/图标/guanbi.png" />
+      <text>注销账号</text>
+    </view>
+  </view>
+</view>
+
+<view class="box" wx:else bindtap="noLogin">
+  <view  style=" display:flex; flex-direction:row">
+    <view class="item">
+      <image class="image" src="../../images/mine/订单中心.png" />
+      <text>订单中心</text>
+    </view>
+    <view class="item">
+      <image class="image" src="../../images/mine/地址.png" />
+      <text>收货地址</text>
+    </view>
+  </view>
+  <view style="margin-top:20rpx; display:flex;  flex-direction:row">
+    <view class="item">
+      <image class="image" src="../../images/图标/logout.png" />
+      <text>退出登录</text>
+    </view>
+    <view class="item">
+      <image class="image" src="../../images/图标/guanbi.png" />
+      <text>注销账号</text>
+    </view>
+  </view>
+    
+</view>
+<background/>
+<w-toast id="wuss-toast" wuss-class="test"/>

@@ -1,0 +1,19 @@
+<view wx:if="{{address}}">
+  <view class="box-1">
+    <view class="line"></view>
+    <view class="wenzi">
+      <view class="nametel">
+        <text class="name">
+          {{address.userName}}
+        </text>
+        <text class="tel">
+          {{address.telNumber}}
+        </text>
+      </view>
+      <text class="addr">
+        {{address.provinceName}}{{address.cityName}}{{address.countyName}}{{address.streetName}}{{address.detailInfo}}
+      </text>
+    </view>
+  </view>
+</view>
+<button bindtap="add">新增地址</button>

@@ -1,0 +1,146 @@
+.liuhai{
+    position: relative;
+    background-color: rgb(247,192,107);
+    border-radius: 30rpx;
+    text-align: center;
+    width: 300rpx;
+    height: 70rpx;
+    left: 225rpx;
+    top: 17rpx;
+  }
+  .liuhai text{
+    position: relative;
+    color:rgb(251,237,221);
+    font-size: 130%;
+    top: 6rpx;
+  }
+  .systj{
+    position: relative;
+    background-color: rgb(247,192,107);
+    border-radius: 30rpx;
+    text-align: center;
+    width: 130rpx;
+    height: 370rpx;
+    left: 30rpx;
+    top: 30rpx;
+    writing-mode: vertical-lr;
+    z-index: 2;
+  }
+  .systj text{
+    position: relative;
+    color:rgb(251,237,221);
+    font-size: 130%;
+    left: 35rpx;
+  }
+  .photoer{
+      display: flex;
+      flex-direction: row;
+     
+  }
+  .photo-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30rpx;
+    width: 590rpx;
+    height: 370rpx;
+    background-color: rgba(252, 223, 179, 0.534);
+    z-index: 1;
+    border-radius: 20rpx;
+  }
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30rpx;
+    margin-bottom: 10rpx;
+    margin-top: 10rpx;
+}
+.head{
+height: 100rpx;
+width: 100rpx;
+border-radius: 50%;
+border: 5rpx solid rgb(247,192,107);
+margin-left: 3rpx;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rpx;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    margin-left: 10rpx;
+    margin-bottom: 10rpx;
+}
+.heart{
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: 110rpx;
+}
+.more{
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: 10rpx;
+    margin-top: 50rpx;
+}
+.info{
+    width: 400rpx;
+    height: 180rpx;
+    font-size: smaller;
+    background-color: rgb(252, 223, 179);
+    padding: 10rpx;
+    box-sizing: border-box;
+    border-radius: 20rpx;
+
+}
+.gap{
+    position: relative;
+    background: rgb(247,192,107);
+    width: 95%;
+    height: 5rpx;
+    border-radius: 5rpx;
+  }
+  .score{
+      margin-left: 5rpx;
+  }
+  .six-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30rpx;
+    width: 590rpx;
+    height: 370rpx;
+    background-color: rgba(252, 223, 179, 0.534);
+    z-index: 1;
+    border-radius: 20rpx;
+  }
+  .zbcp{
+    position: relative;
+    background-color: rgb(247,192,107);
+    border-radius: 30rpx;
+    text-align: center;
+    width: 130rpx;
+    height: 370rpx;
+    left: 30rpx;
+    top: 30rpx;
+    writing-mode: vertical-lr;
+    z-index: 2;
+  }
+.zbcp text{
+    position: relative;
+    color:rgb(251,237,221);
+    font-size: 130%;
+    left: 35rpx;
+}
+.product{
+    display: flex;
+      flex-direction: row;
+      margin-top: 30rpx;
+}
