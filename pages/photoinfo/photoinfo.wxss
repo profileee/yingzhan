@@ -1,0 +1,94 @@
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30rpx;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.share{
+    position: relative;
+    z-index: 2;
+    width: 80rpx;
+    height: 80rpx;
+    margin-top: 40rpx;
+    margin-left: 40rpx;
+}
+.head{
+    height: 150rpx;
+    width: 150rpx;
+    border-radius: 50%;
+    border: 5rpx solid rgb(247,192,107);
+    }
+.shuju{
+    margin-top: 35rpx;
+    text-align: center;
+}
+.shuju view{
+    font-weight: 500;
+    margin-bottom: 15rpx;
+    font-size: larger;
+    color: rgb(247,192,107);
+}
+.shuju text{
+    font-size: smaller;
+}
+.name{
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+}
+.info{
+    margin-top: 20rpx;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 50rpx;
+    text-indent: 2em;
+    margin-bottom: 20rpx;
+}
+.work{
+    width: 90%;
+    margin-left: 5%;
+    border: 7rpx groove rgb(247,192,107) ;
+    border-radius: 5rpx;
+
+}
+.gap{
+    position: relative;
+    background: rgb(247,192,107);
+    width: 95%;
+    height: 5rpx;
+    border-radius: 5rpx;
+  }
+.yuyue{
+    width: 250rpx;
+    height: 90rpx;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 15rpx;
+    bottom: 4%;
+    background-color: rgb(247,192,107);
+    border-radius: 40rpx;
+    text-align: center;
+}
+.yuyue image{
+    width: 80rpx;
+    height: 80rpx;
+    margin-left: 20rpx;
+    margin-top: 5rpx;
+}
+.yuyue view{
+    color: white;
+    margin-top: 20rpx;
+    margin-left: 5rpx;
+}
+.price{
+    color: rgb(247,192,107);
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 70rpx;
+}

@@ -1,0 +1,12 @@
+<view class="box">
+    <image class="success" src="../../images/paysuccess.png"/>
+    <text>
+        预约成功!
+    </text>
+    <view>
+        感谢您的预约,工作人员将在3小时内联系您,祝您生活愉快！ 
+    </view>
+    <button inline type="warn" bindtap="gotoHome">返回主页</button>
+</view>
+  
+  

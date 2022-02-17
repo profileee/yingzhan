@@ -1,0 +1,40 @@
+<view class="row1">
+    <view class="first">
+        <image class="head" src="{{info.head}}"/>
+        <text class="name">
+            {{info.name}}
+        </text>
+    </view>
+    <view class="shuju">
+        <view>888</view>
+        <text>选择</text>
+    </view>
+    <view class="shuju">
+        <view>5.0</view>
+        <text>评分</text>
+    </view>
+    <view style="display:flex;flex-direction:column;text-aign:center;">
+         <button open-type="share" id="btnId" style="display: none"></button>
+        <label for="btnId" style="z-index:99;height:76rpx">
+        <image class="share" src="../../images/share.png" />
+        </label> 
+        <text class="price">
+           {{info.price}} 
+        </text>
+          
+    </view>
+      
+</view>
+<view class="column1">
+    <view class="info">
+        {{info.longinfo}}
+    </view>  
+</view>
+<block wx:for="{{info.works}}" wx:key="this" wx:for-item="item">
+    <image class="work" src="{{item}}" mode="aspectFill" />
+</block>
+<view class="yuyue" bindtap="gotoOrder">
+    <image src="../../images/yuyue.png"/>
+    <view>一键预约</view>
+</view>
+  

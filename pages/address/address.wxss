@@ -1,0 +1,30 @@
+.line{
+    margin-left: 20rpx;
+    background-color: green;
+    width: 15rpx;
+  }
+  .box-1{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 15rpx;
+  }
+  .wenzi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rpx;
+    padding-top: 0rpx;
+  }
+  .nametel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0rpx;
+  }
+  .tel{
+    margin-left: 50rpx;
+  }
+  .addr{
+    margin-top: 0rpx;
+    padding-bottom: 40rpx;
+    font-size: 30rpx;
+  }
