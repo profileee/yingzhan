@@ -1,0 +1,8 @@
+<view class="box">
+    <image class="top" src="../../images/top.png" />
+    <image class="left" src="../../images/left.png" />
+    <image class="right" src="../../images/right.png" />
+    <image class="bottom" src="../../images/bottom.png" />
+    <image class="tabbar" src="../../images/tabbar.png" />
+</view>
+  

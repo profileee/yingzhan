@@ -1,0 +1,6 @@
+page {
+  background-image: url("https://i.imgsrc.com/eax5F.jpg");
+  background-size: 108%;
+  background-position: fixed;
+  /* font-family: "kaiti"; */
+}
